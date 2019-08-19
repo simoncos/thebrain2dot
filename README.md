@@ -4,6 +4,7 @@ TheBrain10 `.json` (File>Export>JSON Files
 ) to `.dot` visualization with Graphviz
 
 - Python 3 support
+- UTF-8 support
 - Nodes (`thoughts.json`)
     - support shapes, colors
     - size depends on PageRank centrality

@@ -1,5 +1,6 @@
 digraph "" {
 	graph [bgcolor=grey22,
+		encoding="utf-8",
 		penwidth=1
 	];
 	node [color=white,
@@ -15,9 +16,9 @@ digraph "" {
 	Test -> B	 [color=white,
 		dir=forward,
 		fontcolor=white];
-	A	 [fontsize=66.90901686464305,
+	啊啊啊啊	 [fontsize=66.90901686464305,
 		width=8.953633075586179];
-	Test -> A	 [color=white,
+	Test -> 啊啊啊啊	 [color=white,
 		dir=none,
 		fontcolor=white];
 	Q	 [fontsize=43.6002232578829,
@@ -73,7 +74,7 @@ digraph "" {
 	Test -> F	 [color=white,
 		dir=back,
 		fontcolor=white];
-	B -> A	 [color=white,
+	B -> 啊啊啊啊	 [color=white,
 		dir=none,
 		fontcolor=white];
 	B -> N	 [color=white,
@@ -84,13 +85,13 @@ digraph "" {
 	M -> Test	 [color=white,
 		dir=back,
 		fontcolor=white];
-	M -> A	 [color=white,
+	M -> 啊啊啊啊	 [color=white,
 		dir=none,
 		fontcolor=white];
-	A -> Q	 [color=white,
+	啊啊啊啊 -> Q	 [color=white,
 		dir=none,
 		fontcolor=white];
-	A -> G	 [color=white,
+	啊啊啊啊 -> G	 [color=white,
 		dir=none,
 		fontcolor=white];
 	L	 [fontsize=43.72922067044773,

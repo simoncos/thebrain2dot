@@ -24,7 +24,7 @@ def brain_json2dot(thoughts_path, links_path, dot_path='thebrain.dot', png_path=
 
 
 def _init_graph(bg_color, node_shape, node_color, edge_splines, edge_font_size):
-    G = pygraphviz.AGraph(strict=False, directed=True)
+    G = pygraphviz.AGraph(strict=False, directed=True, encoding='utf-8')
     G.graph_attr.update({
         'bgcolor': bg_color,
         'penwidth': 1,
