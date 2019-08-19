@@ -62,7 +62,7 @@ pip install pygraphviz
 
 Windows: TODO
 
-### Chinese Fonts (If you want to have Chinese node name)
+### Chinese Fonts (If Chinese is correctly shown in the visualization)
 
 Ubuntu:
 
