@@ -1,0 +1,2 @@
+pygraphviz == 1.5
+networkx == 2.3
