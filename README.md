@@ -62,6 +62,13 @@ pip install pygraphviz
 
 Windows: TODO
 
+### Chinese Fonts (If you want to have Chinese node name)
+
+Ubuntu:
+
+```bash
+apt-get install -y fonts-wqy-microhei
+```
 
 ## TODO
 
