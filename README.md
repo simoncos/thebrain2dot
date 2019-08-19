@@ -62,7 +62,7 @@ pip install pygraphviz
 
 Windows: TODO
 
-### Chinese Fonts (If Chinese is correctly shown in the visualization)
+### Chinese Fonts (If Chinese is not correctly shown in the visualization)
 
 Ubuntu:
 
