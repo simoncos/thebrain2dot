@@ -1,13 +1,13 @@
 # thebrain2dot
 
-thebrain10 `.json` (File>Export>JSON Files 
+TheBrain10 `.json` (File>Export>JSON Files 
 ) to `.dot` visualization with Graphviz
 
 - Python 3 support
-- Nodes
+- Nodes (`thoughts.json`)
     - support shapes, colors
     - size depends on PageRank centrality
-- Links
+- Links (`links.json`)
     - support types, directions, colors
 - Layout
     - support layout (algorithm), splines
