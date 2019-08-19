@@ -1,7 +1,12 @@
 # thebrain2dot
 
 thebrain10 `.json` (File>Export>JSON Files 
-) to `.dot` visualization with Graphviz (output both `.dot` file + `.png` file)
+) to `.dot` visualization with Graphviz
+    - Nodes
+      - support types
+      - size depends on PageRank centrality
+    - Links
+      - support types, directions, colors
 
 Before:
 
@@ -15,8 +20,6 @@ More Complicated Example:
 
 ![](test/thebrain_complex.PNG)
 
-Recommended Tool for `.dot`: MS Code + [Graphviz Interactive Preview](https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview)
-
 ## API
 
 Example: see [test/test.py](test/test.py)
@@ -27,7 +30,7 @@ brain_json2dot(thoughts_path, links_path, dot_path='thebrain.dot', png_path='the
                 edge_default_color='white', edge_splines='', edge_font_size=10)
 ```
 
-
+The Function will output both `.dot` file + `.png` file), recommended Tool for `.dot`: MS Code + [Graphviz Interactive Preview](https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview)
 
 ## Dependency
 
