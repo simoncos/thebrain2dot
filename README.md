@@ -4,7 +4,6 @@ thebrain10 `.json` (File>Export>JSON Files
 ) to `.dot` visualization with Graphviz
 
 - Nodes
-    - support types
     - size depends on PageRank centrality
 - Links
     - support types, directions, colors
