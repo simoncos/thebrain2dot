@@ -1,7 +1,7 @@
 # thebrain2dot
 
 thebrain10 `.json` (File>Export>JSON Files 
-) to `.dot` visualization with Graphviz
+) to `.dot` visualization with Graphviz (output both `.dot` file + `.png` file)
 
 Before:
 
@@ -15,6 +15,8 @@ More Complicated Example:
 
 ![](test/thebrain_complex.PNG)
 
+Recommended Tool for `.dot`: MS Code + [Graphviz Interactive Preview](https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview)
+
 ## API
 
 Example: see [test/test.py](test/test.py)
@@ -24,6 +26,8 @@ brain_json2dot(thoughts_path, links_path, dot_path='thebrain.dot', png_path='the
                 layout='dot', bg_color='grey22', node_shape='circle', node_color='white', 
                 edge_default_color='white', edge_splines='', edge_font_size=10)
 ```
+
+
 
 ## Dependency
 
@@ -47,6 +51,7 @@ pip install pygraphviz
 ```
 
 Windows: TODO
+
 
 ## TODO
 
