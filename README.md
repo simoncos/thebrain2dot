@@ -3,10 +3,16 @@
 thebrain10 `.json` (File>Export>JSON Files 
 ) to `.dot` visualization with Graphviz
 
+- Python 3 support
 - Nodes
+    - support shapes, colors
     - size depends on PageRank centrality
 - Links
     - support types, directions, colors
+- Layout
+    - support layout (algorithm), splines
+- Useful Reference
+    - [Node, Edge and Graph Attributes in Graphviz](https://graphviz.gitlab.io/_pages/doc/info/attrs.html)
 
 Before:
 
