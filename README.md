@@ -66,9 +66,9 @@ Windows:
 
 TODO
 
-### Fonts
+### Fonts (When Necessary)
 
-If a language involving non-ascii characters is not corretly shown in the visualization, try to install corresponding fonts.
+If a language involving non-ascii characters is not correctly shown in the visualization, try to install corresponding fonts.
 
 Example (for Chinese):
 
