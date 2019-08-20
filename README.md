@@ -12,12 +12,10 @@ TheBrain10 `.json` (File>Export>JSON Files
     - support types, directions, colors
 - Layout
     - support layout (algorithm), splines
-- Useful Reference
-    - [Node, Edge and Graph Attributes in Graphviz](https://graphviz.gitlab.io/_pages/doc/info/attrs.html)
 
 Before:
 
-![thebrain10 screenshot](test/thebrain_screenshot.png)
+![](test/thebrain_screenshot.png)
 
 After:
 
@@ -37,10 +35,11 @@ brain_json2dot(thoughts_path, links_path, dot_path='thebrain.dot', png_path='the
                 edge_default_color='white', edge_splines='', edge_font_size=10)
 ```
 
+- Useful reference for parameter customization: [Node, Edge and Graph Attributes in Graphviz](https://graphviz.gitlab.io/_pages/doc/info/attrs.html)
 - The function will output both `.dot` file + `.png` file
 - Recommended tool for `.dot`: MS Code + [Graphviz Interactive Preview](https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview)
 
-## Dependency
+## Dependencies
 
 ### Graphviz
 
@@ -67,7 +66,11 @@ Windows:
 
 TODO
 
-### Chinese Fonts (If Chinese is not correctly shown in the visualization)
+### Fonts
+
+If a language involving non-ascii characters is not corretly shown in the visualization, try to install corresponding fonts.
+
+Example (for Chinese):
 
 Ubuntu:
 
@@ -78,8 +81,8 @@ apt-get install -y fonts-wqy-microhei
 ## TODO
 
 - Doc: parsing of thebrain10's `thoughts.json` & `links.json`
+- Doc: Windows / Mac installation
 - Dev: publish package to PYPI
-- Dev: Windows support
 - Dev: correct color mapping (thebrain exported json seems to have bugs about color)
 - Layout: label / tag
 - Layout: parent / sibling location restriction in visualization
