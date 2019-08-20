@@ -37,7 +37,8 @@ brain_json2dot(thoughts_path, links_path, dot_path='thebrain.dot', png_path='the
                 edge_default_color='white', edge_splines='', edge_font_size=10)
 ```
 
-The Function will output both `.dot` file + `.png` file), recommended Tool for `.dot`: MS Code + [Graphviz Interactive Preview](https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview)
+- The function will output both `.dot` file + `.png` file
+- Recommended tool for `.dot`: MS Code + [Graphviz Interactive Preview](https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview)
 
 ## Dependency
 
@@ -49,7 +50,9 @@ Ubuntu:
 apt install -y graphviz
 ```
 
-Windows: TODO
+Windows: 
+
+TODO
 
 ### Pygraphviz
 
@@ -60,14 +63,17 @@ apt-get install -y graphviz-dev
 pip install pygraphviz
 ```
 
-Windows: TODO
+Windows: 
+
+TODO
 
 
 ## TODO
 
 - Doc: parsing of thebrain10's `thoughts.json` & `links.json`
 - Dev: publish package to PYPI
-- Parsing: correct color mapping (thebrain exported json seems to have bugs about color)
+- Dev: Windows support
+- Dev: correct color mapping (thebrain exported json seems to have bugs about color)
 - Layout: label / tag
 - Layout: parent / sibling location restriction in visualization
 - Layout: community detection
