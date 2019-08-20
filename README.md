@@ -67,6 +67,13 @@ Windows:
 
 TODO
 
+### Chinese Fonts (If Chinese is not correctly shown in the visualization)
+
+Ubuntu:
+
+```bash
+apt-get install -y fonts-wqy-microhei
+```
 
 ## TODO
 
