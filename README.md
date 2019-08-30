@@ -82,6 +82,7 @@ apt-get install -y fonts-wqy-microhei
 
 - Doc: parsing of thebrain10's `thoughts.json` & `links.json`
 - Doc: Windows / Mac installation
+- Dev: SVG
 - Dev: publish package to PYPI
 - Dev: correct color mapping (thebrain exported json seems to have bugs about color)
 - Layout: label / tag
