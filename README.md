@@ -66,6 +66,12 @@ Windows:
 
 TODO
 
+### Networkx
+
+```bash
+pip install networkx
+```
+
 ### Fonts (When Necessary)
 
 If a language involving non-ascii characters is not correctly shown in the visualization, try to install corresponding fonts.
